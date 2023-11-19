@@ -29,3 +29,5 @@
           uses: ayushishu/releng-docker/.github/action/composite-csit-1-node@ayush
           with: 
             project_name: daexim
+            DOCKER_REPOSITORY: ayushishu
+            ROBOT_IMAGE: robot-base-image            
